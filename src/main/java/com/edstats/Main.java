@@ -17,6 +17,7 @@ public class Main {
         turma.addGrade(new Grade(s1, 8.5));
         turma.addGrade(new Grade(s2, 7.0));
         turma.addGrade(new Grade(s3, 9.0));
+        
 
         ClassStatisticsService stats = new ClassStatisticsService();
 
