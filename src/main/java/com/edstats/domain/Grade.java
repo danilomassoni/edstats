@@ -7,13 +7,11 @@ public class Grade {
     private Student student;
 
     
-    private String value;
+    private double value;
 
     // Constructors
-    public Grade() {
-
-    }
-    public Grade(Student student, String value) {
+    
+    public Grade(Student student, double value) {
         this.student = student;
         this.value = value;
     }
@@ -23,15 +21,10 @@ public class Grade {
         return student;
     }
 
-    public void setStudent(Student student) {
-        this.student = student; 
-    }
 
-    public String getValue() {
+    public double getValue() {
         return value; 
     }
 
-    public void setValue(String value) {
-        this.value = value; 
-    }
+
 }
