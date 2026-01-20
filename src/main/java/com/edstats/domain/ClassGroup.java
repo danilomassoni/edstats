@@ -5,7 +5,7 @@ import java.util.List;
 
 public class ClassGroup {
     
-    private String name;
+    private final String name;
     private List<Grade> grades = new ArrayList<>();
 
 

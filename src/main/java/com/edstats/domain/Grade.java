@@ -4,10 +4,9 @@ package com.edstats.domain;
 public class Grade {
 
     
-    private Student student;
+    private final Student student;
 
-    
-    private double value;
+    private final double value;
 
     // Constructors
     
